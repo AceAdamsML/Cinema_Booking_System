@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>MovieBooking | Home</title>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="jumbotron jumbotron-fluid my-4 text-center bg-info text-light">
+        <div class="container">
+        <h1 class="display-4">Welcome to Movie Ticket Booking</h1>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-10 offset-2 m-5 bg-warning">
+                    <h1 class="p-2 text-primary">Latest Cinemas - Showcasing</h1>
+                </div>
+            </div>
+            <div class="row">
+
+                {% for m in mov %}
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <a class="text-decoration-none" href="/movies/{{m.pk}}">
+                        <div class="card shadow" style="width: 18rem; margin:0px auto;">
+                            <img src="{{ m.movie_poster.url }}" class="card-img-top" height="380px">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">{{ m.movie_name }}</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

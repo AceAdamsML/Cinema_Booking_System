@@ -1,0 +1,27 @@
+
+.login {
+  background-color: rgba(98, 7, 126, 0.57);
+  height: 400px;
+  margin: 80px 40px;
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: 16px 13px 40px #0a0000;
+
+}
+
+.register {
+  background-color: rgba(98, 7, 126, 0.57);
+  margin: 80px 20px;
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: 16px 13px 40px #0a0000;
+
+}
+.cinema {
+  background-color: rgba(98, 7, 126, 0.57);
+  margin: 80px 20px;
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: 16px 13px 40px #0a0000;
+
+}

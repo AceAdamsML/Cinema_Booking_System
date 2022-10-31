@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.alert {
+  bottom: 5px;
+  right: 25px;
+  position: absolute;
+  z-index: 15;
+  width: 500px;
+}
