@@ -1,7 +1,10 @@
 # Cinema_Web_Apllictaion
 Built With
+
 Bootstrap - UI Components
+
 Django - Python web framework
+
 MySQL - Used for Database
 
 Installing
