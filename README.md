@@ -25,7 +25,7 @@ DB_HOST =
 
 DB_PORT =
 
-Launch
+Launch with
 
 python manage.py createsuperuser
 
