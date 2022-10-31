@@ -12,18 +12,12 @@ A step by step series of examples that tell you how to get a development env run
 
 - install requirements.txt
 - create .env file and enter all details
-
 SECRET_KEY = 
-
 DB_NAME = 
-
 DB_USER = 
-
 DB_PASSWORD = 
-
 DB_HOST = 
-
-DB_PORT 
+DB_PORT =
 
 Launch
 
