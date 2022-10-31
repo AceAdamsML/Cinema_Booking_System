@@ -26,6 +26,7 @@ DB_HOST =
 DB_PORT 
 
 Launch
+
 python manage.py createsuperuser
 
 python manage.py migrate
