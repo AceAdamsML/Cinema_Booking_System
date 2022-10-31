@@ -20,9 +20,9 @@ python manage.py createsuperuser
 python manage.py migrate
 python manage.py runserver
 
+<img width="959" alt="Screenshot_5 (1)" src="https://user-images.githubusercontent.com/69827883/199071510-f24f7da8-81ed-4310-95b9-e1219f6dcf77.png">
+
 ![Capture1](https://user-images.githubusercontent.com/69827883/199071764-e7560d15-5c4d-4dff-a17b-40e49f5a3604.PNG)
 
-
-<img width="959" alt="Screenshot_5 (1)" src="https://user-images.githubusercontent.com/69827883/199071510-f24f7da8-81ed-4310-95b9-e1219f6dcf77.png">
 
 
