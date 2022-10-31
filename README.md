@@ -21,5 +21,8 @@ python manage.py migrate
 python manage.py runserver
 
 ![image](https://user-images.githubusercontent.com/69827883/199071098-3b8abee6-582d-4d7d-816c-e0e7aa991a0b.png)
-![image](https://user-images.githubusercontent.com/69827883/199071194-7121b747-1949-4cad-809b-24f295b69610.png)
+
+
+<img width="959" alt="Screenshot_5 (1)" src="https://user-images.githubusercontent.com/69827883/199071510-f24f7da8-81ed-4310-95b9-e1219f6dcf77.png">
+
 
